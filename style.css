@@ -98,8 +98,30 @@ object {
   color: var(--clr-text);
 }
 
+.navbar-link:hover,
+.navbar-link:focus {
+  color: var(--clr-accent);
+}
+
 .secondary-images {
   display: flex;
   gap: 0.5em;
   /* width: 100%; */
+}
+
+.footer {
+  margin-top: 2em;
+}
+
+/* .social-icon {
+  height: 30px;
+  width: 30px;
+} */
+
+.social-icon:hover,
+.social-icon:focus {
+  opacity: 0.5;
+}
+
+@media (min-width: 800px) {
 }
